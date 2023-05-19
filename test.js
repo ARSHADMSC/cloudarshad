@@ -2,7 +2,7 @@ const assert = require("assert");
 const httpMocks = require("node-mocks-http");
 const exampleRouteHandler = require("./example-router");
 describe("Example Test 1", () => {
-  it("should return 'Cloud and Devops exam", () => {
+  it("should return 'welcome", () => {
     const mockRequest = httpMocks.createRequest({
       method: "GET",
       url: "/example"
